@@ -1,0 +1,52 @@
+@import './normalize.css';
+
+body{
+    padding: 1rem;
+    background: #e9e3ed;
+}
+button{
+    margin: .5rem;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 900;
+    margin: .2rem;
+}
+h3{
+    font-weight: 600;
+    margin: .5rem;
+    font-size: 1.5rem;
+}
+
+#form{
+    margin-top: 2rem;
+}
+
+
+.card--glass--header{
+    padding: .5rem;
+    margin: .2rem;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+.container-fluid{
+
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.card--glass{
+    padding: 2rem;
+    margin: 3rem;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
